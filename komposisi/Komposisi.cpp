@@ -5,4 +5,8 @@ using namespace std;
 #include "Jantung.h"
 #include "manusia.h"
 
-int main()
+int main() {
+    manusia* varManusia = new manusia("Jono");
+    delete varManusia;
+    return 0;
+}
